@@ -218,6 +218,7 @@ class VideoItemDetails extends Component {
       </ThemeContext.Consumer>
     )
   }
+
   failureView = () => (
     <ThemeContext.Consumer>
       {value => {
